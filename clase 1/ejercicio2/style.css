@@ -1,0 +1,24 @@
+.fondoRojo{
+    background-color: red;
+    width: 100px;
+    height: 200px;
+}
+.fondoVioleta{
+    background-color: violet;
+    width: 100px;
+    height: 200px;
+
+}
+.fondoAzul{
+    background-color: blue;
+    width: 100px;
+    height: 200px;
+    color: yellow;
+
+}
+.fondoVerde{
+    background-color: green;
+    width: 100px;
+    height: 200px;
+    color: cyan;
+}
