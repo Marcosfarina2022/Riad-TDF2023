@@ -6,6 +6,7 @@ import Contador from '../Contador/Contador';
 import PesoDolar from '../ConversorPesosDolar/PesoDolar';
 import {UserList} from '../UseEffectEjemplo/UserList';
 import { EjercicioGrupalContador} from '../EjercicioGrupal/EjercicioGrupalContador';
+import Evento from '../EventoConClases/Evento';
 
 
 const Content = ()=>{
@@ -23,9 +24,11 @@ const Content = ()=>{
                 <h3>contenido de mi caja</h3>
             </Box>*/}{/*Acá podemos incluso meter una lista u otros componentes mas dentro del box*/}
             {/*<PesoDolar></PesoDolar>*/}
-            <UserList />
+            {/*<UserList />
 
             {/*<EjercicioGrupalContador />*/}
+            <hr />
+            <Evento></Evento>
         </div>
     )
 }
